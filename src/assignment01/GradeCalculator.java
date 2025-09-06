@@ -12,6 +12,7 @@ public class GradeCalculator {
         double examAvg = scan.nextDouble();
         double finalGrade = ((sessions/8.0)*15 + quizAvg*.25 + examAvg*.60);
         System.out.print("Total grade: " + finalGrade + "%");
+        
 
 
 
